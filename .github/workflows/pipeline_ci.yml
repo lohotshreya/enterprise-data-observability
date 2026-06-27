@@ -1,0 +1,20 @@
+name: Data Pipeline Integration Testing
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Install System Engine Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Verify Environment Compilation
+      run: |
+        python -c "import pandas, sklearn, great_expectations, watchdog"
