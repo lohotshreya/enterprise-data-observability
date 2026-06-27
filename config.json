@@ -1,0 +1,8 @@
+{
+  "raw_dir": "data/raw",
+  "clean_dir": "data/clean",
+  "quarantine_dir": "data/quarantine",
+  "anomaly_contamination": 0.05,
+  "drift_p_value_threshold": 0.05,
+  "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE"
+}
