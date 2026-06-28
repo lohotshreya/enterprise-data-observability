@@ -56,3 +56,44 @@ Incoming Payload (.csv)
 │ Data Lake    │───────────────────────────────────────────────────┘
 │ (Clean Sync) │   Pipeline Execution Metrics & Status Transmitted
 └──────────────┘
+
+---
+
+## 4. Setup Instructions (How to Clone and Install)
+
+Follow these exact steps to clone this project, configure dependencies, and stand up a local instance of the background observability engine.
+
+### Prerequisites
+Ensure your development machine has the following software installed:
+* **Git** installed on your local system.
+* **Python 3.11** or higher.
+* **Docker Desktop** (Optional, required only for container testing).
+
+### Step 1: Clone the Repository
+Open your terminal or command prompt, navigate to your working directory, and pull down the project source files:
+```bash
+git clone [https://github.com/lohotshreya/enterprise-data-observability.git](https://github.com/ylohotshreya/enterprise-data-observability.git)
+cd enterprise-data-observability
+
+
+### Step 2: Establish an Isolated Virtual Environment
+Create a clean virtual layer to keep your project packages separated from your global computer environment:
+
+# Initialize the virtual environment directory
+python -m venv venv
+
+# Activate the environment (Mac/Linux)
+source venv/bin/activate
+
+# Activate the environment (Windows Command Prompt)
+# .\venv\Scripts\activate.bat
+
+# Activate the environment (Windows PowerShell)
+# .\venv\Scripts\Activate.ps1
+
+
+### Step 3: Install Required Dependencies
+Upgrade your base Python package manager and compile all the system framework requirements pinned in the manifesto:
+
+pip install --upgrade pip
+pip install -r requirements.txt
