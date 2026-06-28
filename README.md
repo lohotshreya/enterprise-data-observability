@@ -74,11 +74,11 @@ Open your terminal or command prompt, navigate to your working directory, and pu
 ```bash
 git clone [https://github.com/lohotshreya/enterprise-data-observability.git](https://github.com/ylohotshreya/enterprise-data-observability.git)
 cd enterprise-data-observability
-
+```
 
 ### Step 2: Establish an Isolated Virtual Environment
 Create a clean virtual layer to keep your project packages separated from your global computer environment:
-
+```
 # Initialize the virtual environment directory
 python -m venv venv
 
@@ -90,10 +90,11 @@ source venv/bin/activate
 
 # Activate the environment (Windows PowerShell)
 # .\venv\Scripts\Activate.ps1
-
+```
 
 ### Step 3: Install Required Dependencies
 Upgrade your base Python package manager and compile all the system framework requirements pinned in the manifesto:
-
+```
 pip install --upgrade pip
 pip install -r requirements.txt
+```
