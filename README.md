@@ -58,7 +58,7 @@ Incoming Payload (.csv)
 └──────────────┘
 
 ---
-
+```
 ## 4. Setup Instructions (How to Clone and Install)
 
 Follow these exact steps to clone this project, configure dependencies, and stand up a local instance of the background observability engine.
