@@ -17,5 +17,5 @@ An automated, asynchronous MLOps infrastructure pipeline designed to process inc
 ### 1. System Setup
 Clone the framework to your cloud node or enterprise local directory structure:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/enterprise-data-observability.git](https://github.com/YOUR_USERNAME/enterprise-data-observability.git)
+git clone [https://github.com/YOUR_USERNAME/enterprise-data-observability.git](https://github.com/lohotshreya/enterprise-data-observability.git)
 cd enterprise-data-observability
